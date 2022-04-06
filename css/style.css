@@ -1,0 +1,230 @@
+/* Колір лого  color: #2196F3;*/
+/* Колір в  посилань хедері 
+color: #2196F3;       color: #757575;*/
+/* Бекграунд background: #E5E5E5; background: #2F303A; */
+/* Колір h1  color: #FFFFFF; */
+/* Колір посилань у футері color: rgba(255, 255, 255, 0.6); */
+
+
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196F3;
+  --main-background-color: #FFFFFF;
+  --grey-background-color: #2F303A;
+  --button-background-color: #188CE8;
+  --secondary-white-background-color: #F5F4FA;
+}
+
+body {
+  color: var(--primary-text-color);
+  background: var(--main-background-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  
+}
+
+.list, .list a, .page-footer a, .page-header a {
+  list-style: none;
+  text-decoration: none;
+}
+
+
+.page-header {
+  background: var(--main-background-color);
+}
+
+.logo-header {
+  color: var(--title-text-color);
+ font-family: Raleway, sans-serif;
+ font-weight: 700;
+ font-size: 26px;
+ line-height: 1.19;
+
+}
+
+.logo-first-part {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;  
+}
+
+.site-nav a {
+ color: var(--title-text-color);
+ font-weight: 500;
+ line-height: 1.14;
+ letter-spacing: 0.02em;
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.auth-nav a {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.primary-button {
+  color: var(--primary-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.primary-button:hover,
+.primary-button:focus {
+  cursor: pointer;
+  color: var(--accent-color);
+}
+/*Hero section*/
+
+.hero-section{
+  background: var(--grey-background-color);
+}
+
+.hero-title {
+  color: var(--main-background-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.secondary-button {
+  cursor: pointer;
+  
+  color: var(--main-background-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+.secondary-button:hover{
+  color: var(--main-background-color);
+  background-color: var(--button-background-color);
+  font-family: inherit;
+}
+
+/*Other sections*/
+
+.secondary-title, .third-title {
+  color: var(--title-text-color);
+}
+
+.secondary-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.main-section .third-title{
+  font-weight: 700;
+ line-height: 16px;
+ text-transform: uppercase;
+}
+
+.main-section p {
+  line-height: 1.71;
+
+}
+
+.fourth-section {
+  background: var(--secondary-white-background-color);
+}
+
+.team-list li {
+  background: var(--main-background-color);
+}
+
+.fourth-section .third-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  
+}
+
+.fourth-section p {
+  font-size: 16px;
+  line-height: 1.19;
+  
+}
+
+.page-footer {
+  background: var(--grey-background-color);
+}
+
+.address p {
+ color: var(--main-background-color);
+ line-height: 1.71;
+}
+
+.address a {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
+}
+
+address {
+  font-style: normal;
+}
+
+.logo-footer {
+  color: var(--main-background-color);
+  font-family: Raleway, sans-serif;
+}
+
+
+/*Portfolio*/
+
+.button-portfolio {
+  cursor: pointer;
+
+  color: var(--title-text-color);
+  background: var(--secondary-white-background-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  
+}
+
+.portfolio-examples li {
+  background: var(--main-background-color);
+}
+
+.portfolio-examples .secondary-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-examples p {
+  font-size: 16px;
+  line-height: 1.88;
+ 
+}
+ 
+.button-portfolio:hover {
+  color: var(--main-background-color);
+  background-color: var(--accent-color);
+}
