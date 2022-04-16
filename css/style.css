@@ -27,13 +27,13 @@ html {
 }
 
 body {
-  
+
   color: var(--primary-text-color);
   background: var(--main-background-color);
   font-family: Roboto, sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-
+  
 }
 
 h1,
@@ -62,7 +62,9 @@ ul {
   margin-right: auto;
 }
 
-
+.leader {
+  display: flex;
+}
 
 nav {
   display: flex;
@@ -168,7 +170,7 @@ nav {
   padding-bottom: 32px;
   
 }
-/*.main-nav {
+/*.main-nav {;
   align-items: center;
   width: 1200px;
   padding-left: 15px;
@@ -185,7 +187,7 @@ nav {
 }
 
 .hero-title {
-  display: inline-block;
+
   margin-top: 0;
   margin-bottom: 30px;
   margin-left: auto;
